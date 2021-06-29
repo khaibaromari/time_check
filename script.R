@@ -8,7 +8,6 @@ time_max <- 60
 
 # reading the raw data set
 df <- read_xlsx("input/data_frame.xlsx")
-
 # time check based on start and end time
 time_checked_df <- time_check(df, time_min, time_max)
 
